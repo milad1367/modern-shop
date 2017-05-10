@@ -1,7 +1,11 @@
+body,p,h1 {
+    margin:0;
+    padding: 0;
+}
 .start {
     background-image: url("../img/header-bg.jpg");
     background-size: 100% auto;
-    height: 300rem;
+    height: 25em;
     background-repeat: no-repeat;
 }
 .navbar{
@@ -20,8 +24,19 @@
     width:70px;
     height: 20px;
 }
-
- .label .material-icons,.user label,.nav a,header h1, p {
+ .label .material-icons,.user label,.nav a,header h1,header p {
    
     color: white;
+}
+.search {
+    background-color: white ;
+    width: 40%;
+    padding: 0.5rem;
+}
+.search input {
+      
+}
+.special{
+   background-color: Gainsboro ;
+   height: 10em;
 }
