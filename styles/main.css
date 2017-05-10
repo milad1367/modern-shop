@@ -1,3 +1,27 @@
 .start {
-    background-image: url('img/header-bg.jpg') 
+    background-image: url("../img/header-bg.jpg");
+    background-size: 100% auto;
+    height: 300rem;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex ;
+}
+.navbar .label {
+   width:15%;
+} 
+.nav {
+    width: 70%;
+}
+.brand{
+    width:15%;
+}
+.brand img {
+    width:70px;
+    height: 20px;
+}
+
+ .label .material-icons,.user label,.nav a {
+   
+    color: white;
 }
