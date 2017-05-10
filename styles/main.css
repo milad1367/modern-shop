@@ -21,7 +21,7 @@
     height: 20px;
 }
 
- .label .material-icons,.user label,.nav a {
+ .label .material-icons,.user label,.nav a,header h1, p {
    
     color: white;
 }
