@@ -36,7 +36,10 @@ body,p,h1 {
 .search input {
       
 }
-.special{
+.ch_special{
    background-color: Gainsboro ;
    height: 10em;
+}
+.ch_special .content {
+    width: 30%;
 }
