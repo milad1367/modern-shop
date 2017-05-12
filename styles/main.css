@@ -81,3 +81,11 @@ body,p,h1 {
     z-index: 0;
     left:0;
 }
+.product{
+    padding:1em 0 1em 0 ;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
