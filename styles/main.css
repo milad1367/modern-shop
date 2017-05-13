@@ -89,3 +89,8 @@ body,p,h1 {
     margin-right: auto;
 
 }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
