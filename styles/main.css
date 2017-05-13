@@ -91,7 +91,7 @@ body,p,h1 {
     margin-right: auto;
 }
 .product {
-    
+    padding-right: 0.4em;
 }
 
 .buy{
@@ -100,6 +100,17 @@ body,p,h1 {
 }
 .product:hover  .buy {
     display: block ;
+}
+.fancy_new_bg {
+   background-color: Gainsboro ; 
+}
+.fancy_new {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
     .slick-prev:before,

@@ -5,4 +5,9 @@ $(document).ready(function(){
         slidesToShow: 3,
         slidesToScroll: 3
   });
+  $('.fancy_new').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 4
+});
 });
