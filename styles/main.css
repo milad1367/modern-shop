@@ -112,6 +112,14 @@ body,p,h1 {
     margin-left: auto;
     margin-right: auto;
 }
+.fancy_favorite {
+    display: flex ;
+    width: 90%;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-left :2em;
+    padding-right: 2em;
+}
 
     .slick-prev:before,
     .slick-next:before {
