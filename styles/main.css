@@ -74,6 +74,7 @@ body,p,h1 {
     z-index: 2;
     left: 0;
 }
+
 .images_select .four {
     width: 110px;
     position: relative;
@@ -81,13 +82,24 @@ body,p,h1 {
     z-index: 0;
     left:0;
 }
-.product{
+
+.products{
     padding:1em 0 1em 0 ;
     display: flex;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+}
+.product {
+    
+}
 
+.buy{
+    background-color: green ;
+    display: none ;
+}
+.product:hover  .buy {
+    display: block ;
 }
 
     .slick-prev:before,
