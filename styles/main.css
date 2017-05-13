@@ -126,6 +126,14 @@ body,p,h1 {
 }
 .img img {
     height: 180px;
+    
+}
+.favorite_pics{
+    padding: 3em 0 3em 0;
+    
+}
+.favorite_pics img {
+  height: 180px;
 }
     .slick-prev:before,
     .slick-next:before {
