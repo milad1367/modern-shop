@@ -135,6 +135,20 @@ body,p,h1 {
 .favorite_pics img {
   height: 180px;
 }
+.brands {
+    background-color: red;
+}
+.brands section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+}
+.padding_right_2{
+    padding-right: 2em; 
+}
+.brands img {
+    width:100px;
+}
     .slick-prev:before,
     .slick-next:before {
         color: black;
