@@ -112,7 +112,11 @@ body,p,h1 {
     margin-left: auto;
     margin-right: auto;
 }
+.favorite{
+    display: flex;
+}
 .fancy_favorite {
+    padding: 3em 0 3em 0 ;
     display: flex ;
     width: 90%;
     margin-left: auto ;
@@ -120,7 +124,9 @@ body,p,h1 {
     padding-left :2em;
     padding-right: 2em;
 }
-
+.img img {
+    height: 180px;
+}
     .slick-prev:before,
     .slick-next:before {
         color: black;
