@@ -149,6 +149,25 @@ body,p,h1 {
 .brands img {
     width:100px;
 }
+.about{
+    display: flex;
+}
+.about_fancy {
+    width:30%;
+}
+.useful_links{
+    width:30% ;
+}
+
+.useful_links section {
+    display: flex;
+}
+.trust_mark {
+    width:30%;
+}
+.trust_mark img {
+    width:100px;
+}
     .slick-prev:before,
     .slick-next:before {
         color: black;
