@@ -2,20 +2,43 @@ body,p,h1 {
     margin:0;
     padding: 0;
 }
+.padding_right_2{
+    padding-right: 2em; 
+}
+a {
+     text-decoration: none;
+}
 .start {
     background-image: url("../img/header-bg.jpg");
     background-size: 100% auto;
     height: 25em;
     background-repeat: no-repeat;
 }
+.user {
+    padding-top:0.8em;
+}
+.user a {
+    color:white;
+}
+.user .register a  {
+    color: green;
+}
+
+.start section {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .navbar{
     display: flex ;
+    padding:1.5em 0 1.5em 0 ;
 }
 .navbar .label {
    width:15%;
 } 
 .nav {
     width: 70%;
+    text-align: center;
 }
 .brand{
     width:15%;
@@ -143,9 +166,7 @@ body,p,h1 {
     margin-right: auto;
     width: 58%;
 }
-.padding_right_2{
-    padding-right: 2em; 
-}
+
 .brands img {
     width:100px;
 }
