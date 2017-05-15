@@ -45,6 +45,9 @@ a {
     width: 70%;
     text-align: center;
 }
+.nav_open{
+    display: none;
+}
 .brand{
     width:15%;
 }

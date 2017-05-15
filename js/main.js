@@ -11,4 +11,22 @@ $(document).ready(function(){
   slidesToScroll: 4
 });
 });
+
+$(document).click(function() {
+   var nav = $('#nav');
+   var nav_width = nav.width();
+   if(nav_width){
+    nav.width(0);
+   }
+});
+$('.nav_open').click(function(){
+   document.getElementById("nav").style.width = "250px";
+})
+function openNav() {
+    document.getElementById("nav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("nav").style.width = "0";
+}
 //ommit
