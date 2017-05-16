@@ -9,6 +9,10 @@ html, body {
 .padding_right_2{
     padding-right: 2em; 
 }
+h1 {
+    padding: 0;
+    margin: 0;
+}
  .label .material-icons,.user label,.nav a,header h1,header p {
    
     color: white;

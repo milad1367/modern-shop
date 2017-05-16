@@ -19,6 +19,9 @@
   display: block ;
   padding: 0 0 1em 0;
 }
+.navbar .label {
+  width:80%;
+}
 .nav_open{
     display: block;
     position: fixed;
