@@ -20,11 +20,9 @@ $(document).click(function() {
    }
 });
 $('.nav_open').click(function(){
-   document.getElementById("nav").style.width = "250px";
+   document.getElementById("nav").style.width = "150px";
 })
-function openNav() {
-    document.getElementById("nav").style.width = "250px";
-}
+
 
 function closeNav() {
     document.getElementById("nav").style.width = "0";

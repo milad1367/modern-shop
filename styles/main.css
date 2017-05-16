@@ -9,6 +9,10 @@ html, body {
 .padding_right_2{
     padding-right: 2em; 
 }
+ .label .material-icons,.user label,.nav a,header h1,header p {
+   
+    color: white;
+}
 a {
      text-decoration: none;
 }
@@ -45,6 +49,10 @@ a {
     width: 70%;
     text-align: center;
 }
+ a:hover {
+    color:green;
+
+}
 .nav_open{
     display: none;
 }
@@ -55,10 +63,7 @@ a {
     width:70px;
     height: 20px;
 }
- .label .material-icons,.user label,.nav a,header h1,header p {
-   
-    color: white;
-}
+
 .search{
     padding-top :5em;
 }
