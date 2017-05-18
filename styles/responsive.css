@@ -36,4 +36,13 @@
 .user_layer{
   padding-right: 1em;
 }
+.shop{
+  width:50%;
+}
+.brand{
+  width:50%;
+}
+.brand img {
+  padding-right: 0.5em;
+}
 }

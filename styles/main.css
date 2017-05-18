@@ -58,6 +58,9 @@ a {
     width: 70%;
     text-align: center;
 }
+.shop {
+    width:15%
+}
  a:hover {
     color:green;
 
@@ -67,6 +70,7 @@ a {
 }
 .brand{
     width:15%;
+    text-align: right;
 }
 .brand img {
     width:70px;
