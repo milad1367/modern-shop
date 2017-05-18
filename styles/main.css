@@ -13,7 +13,7 @@ h1 {
     padding: 0;
     margin: 0;
 }
- .label .material-icons,.user label,.nav a,header h1,header p {
+ .label .material-icons,.shop,.nav a,header h1,header p {
    
     color: white;
 }
@@ -21,14 +21,16 @@ a {
      text-decoration: none;
 }
 .start {
-    background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header-bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  height: 100%;
 }
 .user {
     padding-top:0.8em;
+    width:100%;
 }
 .user a {
     color:white;
@@ -41,10 +43,13 @@ a {
     width:80%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 .navbar{
-    display: flex ;
     padding:1.5em 0 1.5em 0 ;
+    width: 100%;
+    display: flex;
 }
 .navbar .label {
    width:15%;
