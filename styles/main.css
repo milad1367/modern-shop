@@ -9,6 +9,9 @@ html, body {
 .padding_right_2{
     padding-right: 2em; 
 }
+.padding_right_4{
+    padding-right: 4em; 
+}
 h1 {
     padding: 0;
     margin: 0;
@@ -78,16 +81,17 @@ a {
 }
 
 .search{
-    padding-top :5em;
+    padding-top :10%;
 }
-.search header {
+.summary {
     width:35%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2em;
+    color:white;
 }
-.search div {
+.search divvvvvvv {
     background-color: white ;
     width: 58%;
     padding: 0.5rem;
