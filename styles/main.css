@@ -12,6 +12,12 @@ html, body {
 .padding_right_4{
     padding-right: 4em; 
 }
+padding_1 {
+    padding:0.5em;
+}
+BGC_white{
+    background-color: white;
+}
 h1 {
     padding: 0;
     margin: 0;
