@@ -7,7 +7,21 @@
     padding: 0 1em;
     font-size: larger;
   }
-
+  .search{
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    width:100%;
+  }
+  .search button{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+ .search input {
+    width: 90%;
+    margin: auto;
+ }
 }
 @media only screen and (max-width:800px) {
   .start section {

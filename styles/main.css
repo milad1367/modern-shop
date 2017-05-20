@@ -12,11 +12,17 @@ html, body {
 .padding_right_4{
     padding-right: 4em; 
 }
-padding_1 {
+.padding_1 {
     padding:0.5em;
 }
-BGC_white{
+.BGC_white{
     background-color: white;
+}
+.width_100{
+    width:100%;
+}
+.flex{
+    display: flex;
 }
 h1 {
     padding: 0;
@@ -87,7 +93,10 @@ a {
 }
 
 .search{
-    padding-top :10%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 .summary {
     width:100%;
@@ -109,7 +118,7 @@ a {
 }
 .search input {
     padding: 5px 0px 6px 0;
-    width: 78%;
+    width:100%
 }
 .ch_special{
    background-color: Gainsboro ;
