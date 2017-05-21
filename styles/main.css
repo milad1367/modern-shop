@@ -6,6 +6,13 @@ html, body {
   overflow: auto;
   height: 100%;
 }
+p {
+    padding:0;
+    margin:0;
+}
+.font_48{
+    font-size: 48px;
+}
 .padding_right_2{
     padding-right: 2em; 
 }
@@ -21,14 +28,28 @@ html, body {
 .width_100{
     width:100%;
 }
+.width_90 {
+    width:90%;
+}
 .flex{
     display: flex;
+    display: -webkit-flex;
 }
 .flex-container {
     display: -webkit-flex;
     display: flex;
+}
+.flex-container-rev {
+    display: -webkit-flex;
+    display: flex;
     -webkit-flex-direction: column-reverse;
     flex-direction: column-reverse;
+}
+.flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 h1 {
     padding: 0;
@@ -111,6 +132,10 @@ a {
     margin-right: auto;
     padding-top: 18%;
     color:white;
+}
+.summary p {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .search divvvvvvv {
     background-color: white ;
