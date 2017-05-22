@@ -23,6 +23,14 @@
     margin: auto;
  }
 }
+@media only screen and (max-width:600px){
+  .ch_special .images_select {
+    display: none;
+  } 
+  .ch_special .content {
+    width: 100%;
+  }
+}
 @media only screen and (max-width:800px) {
   .start section {
     width:100%;
@@ -66,4 +74,16 @@
 .brand img {
   padding-right: 0.5em;
 }
+.ch_special .images_select {
+  width:50%;
+}
+}
+@media only screen and (max-width:1000px) {
+  .ch_special {
+    width:98%;
+  }
+  .ch_special .content {
+    padding: 1em;
+  }
+
 }

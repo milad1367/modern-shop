@@ -22,8 +22,14 @@ p {
 .padding_1 {
     padding:0.5em;
 }
+.padding_top_3{
+    padding-top: 3em;
+}
 .BGC_white{
     background-color: white;
+}
+.BGC_ga {
+    background-color: Gainsboro ;
 }
 .width_100{
     width:100%;
@@ -153,12 +159,13 @@ a {
 }
 .ch_special{
    background-color: Gainsboro ;
+   width: 80%;
+   margin: auto;
    
 }
 .ch_special .head {
     text-align: right;
-    width: 80%;
-    margin: auto;
+
     padding-top: 2%;
 }
 .ch_special .content {
@@ -166,9 +173,11 @@ a {
     padding-left: 4em;
     padding-top: 2em;
     padding-right: 3em;
+    text-align: right;
 }
 .ch_special .select{
-
+  
+  margin: auto;
 }
 .ch_special .images_select img {
     border-radius: 100%;
@@ -178,30 +187,36 @@ a {
 }
 .images_select .one {
     width: 100px;
+    height: 100px;
     position: relative;
     z-index: 4;
     top: 0;
-    left: 0px;
+    left: 31px;
+    
 }
 .images_select .two {
-    width: 180px;
+    width: 130px;
+    height: 130px;
     position: relative;
     z-index: 1;
     left: 0;
 }
 .images_select .three {
-    width: 70px;
+    width: 90px;
+    height: 90px;
     position: relative;
-    z-index: 2;
-    left: 0;
+    z-index: 0;
+    left: -30px;
+    top: 38px;
 }
 
 .images_select .four {
-    width: 110px;
+    width: 60px;
+    height: 60px;
     position: relative;
     bottom:0;
-    z-index: 0;
-    left:0;
+    z-index: 1;
+    right: 135px;
 }
 
 .products{
