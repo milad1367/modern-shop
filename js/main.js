@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  console.log($( document ).width());
   $('.products').slick({
         dots: true,
         infinite: true,
