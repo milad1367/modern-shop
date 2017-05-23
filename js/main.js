@@ -1,6 +1,12 @@
+var WidthToTime;
+$(window).resize(function() {
+  var WidthToTime = $(window).width();
+})
+
 $(document).ready(function(){
   console.log($( document ).width());
   $('.products').slick({
+        //accessibility:false,
         dots: true,
         infinite: true,
         slidesToShow: 3,
@@ -28,4 +34,3 @@ $('.nav_open').click(function(){
 function closeNav() {
     document.getElementById("nav").style.width = "0";
 }
-//ommit
