@@ -94,7 +94,7 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-.navbar{
+.navbar {
     padding:1.5em 0 1.5em 0 ;
     width: 100%;
     display: flex;
@@ -113,10 +113,10 @@ a {
     color:green;
 
 }
-.nav_open{
+.nav_open {
     display: none;
 }
-.brand{
+.brand {
     width:15%;
     text-align: right;
 }
@@ -125,7 +125,7 @@ a {
     height: 20px;
 }
 
-.search{
+.search {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -229,7 +229,14 @@ a {
 .product {
     padding-right: 0.4em;
 }
-
+.product section {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products .product section span img {
+    margin: auto;
+}
 .buy{
     background-color: green ;
     display: none ;
