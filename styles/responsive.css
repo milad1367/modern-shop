@@ -30,8 +30,9 @@
   .ch_special .content {
     width: 100%;
   }
-  .products{
-    width: 80%;
+
+  .width_80{
+    width: 98%;
   }
 }
 @media only screen and (max-width:800px) {

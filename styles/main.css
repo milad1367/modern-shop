@@ -34,6 +34,10 @@ p {
 .width_100{
     width:100%;
 }
+.width_80 {
+    width:80%;
+    margin: auto;
+}
 .width_90 {
     width:90%;
 }
@@ -163,9 +167,8 @@ a {
    margin: auto;
    
 }
-.ch_special .head {
+.head {
     text-align: right;
-
     padding-top: 2%;
 }
 .ch_special .content {
@@ -220,9 +223,9 @@ a {
 }
 
 .products{
-    padding:1em 0 1em 0 ;
+    padding:3em 0 1em 0 ;
     display: flex;
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
