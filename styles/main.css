@@ -225,7 +225,7 @@ a {
     right: 135px;
 }
 
-.products{
+.new_products,off_products {
     padding:3em 0 1em 0 ;
     display: flex;
     width: 80%;
@@ -240,7 +240,7 @@ a {
     margin-left: auto;
     margin-right: auto;
 }
-.products .product section span img {
+ .product section span img {
     margin: auto;
 }
 

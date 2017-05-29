@@ -1,6 +1,6 @@
 
 $(document).ready(function(){
-$('.products').slick({
+$('.off_products').slick({
   dots: true,
   infinite: false,
   speed: 300,
@@ -35,8 +35,8 @@ $('.products').slick({
     // instead of a settings object
   ]
 });
-/*
-  $('.fancy_new').slick({
+
+  $('.new_products').slick({
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 4,
@@ -70,7 +70,7 @@ $('.products').slick({
   ]
   
 });
-*/
+
 });
 
 $(document).click(function() {
