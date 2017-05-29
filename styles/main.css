@@ -41,6 +41,9 @@ p {
 .width_90 {
     width:90%;
 }
+.margin_auto{
+    margin: auto;
+}
 .flex{
     display: flex;
     display: -webkit-flex;
@@ -240,6 +243,7 @@ a {
 .products .product section span img {
     margin: auto;
 }
+
 .buy{
     background-color: green ;
     display: none ;
