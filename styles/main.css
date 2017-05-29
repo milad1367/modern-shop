@@ -284,9 +284,12 @@ a {
     flex-direction: column;
     
 }
+.img_fav img{
+    width:100%;
+    min-width: 100px;
+}
 .favorite_pics img {
-  width: 130px;
-  height: 100px;
+  width: 100%;
 }
 .brands {
     background-color: red;
