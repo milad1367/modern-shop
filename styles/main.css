@@ -275,15 +275,18 @@ a {
     padding-right: 2em;
 }
 .img img {
-    height: 180px;
+    width: 160px;
+    height: 150px;
     
 }
 .favorite_pics{
     padding: 3em 0 3em 0;
+    flex-direction: column;
     
 }
 .favorite_pics img {
-  height: 180px;
+  width: 130px;
+  height: 100px;
 }
 .brands {
     background-color: red;
