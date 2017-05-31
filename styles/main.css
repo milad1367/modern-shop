@@ -64,6 +64,15 @@ p {
     justify-content: center;
 
 }
+.text{
+    display: inline-block;
+}
+.display_inline{
+    display: inline-block;
+}
+.align_right{
+  text-align: right;
+}
 h1 {
     padding: 0;
     margin: 0;
@@ -170,8 +179,7 @@ a {
    margin: auto;
    
 }
-.head {
-    text-align: right;
+.padding_top_2 {
     padding-top: 2%;
 }
 .ch_special .content {
@@ -280,9 +288,7 @@ a {
     
 }
 .favorite_pics{
-    padding: 3em 0 3em 0;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 .img_fav img{
     width:100%;
@@ -290,6 +296,11 @@ a {
 }
 .favorite_pics img {
   width: 100%;
+  max-width: 150px;
+  min-width: 110px;
+}
+.no_border_bottom{
+  border-bottom: none;
 }
 .brands {
     background-color: red;
