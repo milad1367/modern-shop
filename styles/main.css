@@ -23,7 +23,14 @@ p {
     padding:0.5em;
 }
 .padding_top_3{
-    padding-top: 3em;
+    padding-top: 3%;
+}
+.padding_bottom_3{
+    padding-bottom: 3%;
+}
+.padding_special{
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .BGC_white{
     background-color: white;
@@ -142,10 +149,15 @@ a {
 }
 
 .search {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+}
+.input-group {
+    padding:0.2em;
+    background-color: white;
+}
+.input-group-btn button {
+    background-color: red;
+    width:70px;
 }
 .summary {
     width:100%;
@@ -159,31 +171,26 @@ a {
     padding-top: 1em;
     padding-bottom: 1em;
 }
-.search divvvvvvv {
-    background-color: white ;
-    width: 58%;
-    padding: 0.5rem;
-}
+
 .search  button {
-    padding: 0.5em 2em 0.5em 2em ;
-    background-color: red;
-    color:white;
+
 }
 .search input {
-    padding: 5px 0px 6px 0;
-    width:100%
+
 }
 .ch_special{
    background-color: Gainsboro ;
-   width: 80%;
    margin: auto;
    
 }
 .padding_top_2 {
     padding-top: 2%;
 }
+.padding_bottom_2 {
+    padding-top: 2%;
+}
 .ch_special .content {
-    width: 65%;
+    width: 80%;
     padding-left: 4em;
     padding-top: 2em;
     padding-right: 3em;
