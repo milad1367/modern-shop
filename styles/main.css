@@ -65,6 +65,9 @@ p {
 .width_80 {
     width:80%;
 }
+.width_85 {
+    width:85%;
+}
 .width_90 {
     width:90%;
 }
@@ -269,7 +272,7 @@ a {
 .new_products{
     padding:3em 0 1em 0 ;
     display: flex;
-    width: 80%;
+    width: 100%;
 }
 off_products {
     padding:3em 0 1em 0 ;
