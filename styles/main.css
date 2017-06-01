@@ -19,6 +19,9 @@ p {
 .padding_right_4{
     padding-right: 4em; 
 }
+.padding_right_3{
+    padding-right: 3%;
+}
 .padding_1 {
     padding:0.5em;
 }
@@ -47,6 +50,9 @@ p {
 }
 .width_90 {
     width:90%;
+}
+.width_98 {
+    width:98%;
 }
 .margin_auto{
     margin: auto;
@@ -95,7 +101,7 @@ a {
      text-decoration: none;
 }
 .start {
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/header-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;

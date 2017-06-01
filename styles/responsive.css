@@ -1,5 +1,18 @@
 
 @media only screen and (max-width:500px){
+
+.ch_special .select {
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+
+}
+.ch_special .select .img-fancy-random {
+  margin: auto;
+}
+.ch_special .select .img-fancy-random img {
+  margin: auto;
+  width: 70%;
+}
   .summary{
     padding-top: 40%;
   }
