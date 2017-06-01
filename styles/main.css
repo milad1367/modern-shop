@@ -276,6 +276,7 @@ a {
     padding:3em 0 1em 0 ;
     display: flex;
     width: 100%;
+    direction: rtl;
 }
 off_products {
     padding:3em 0 1em 0 ;
@@ -307,7 +308,6 @@ off_products {
 }
 .fancy_new_bg section {
     display: flex;
-    direction: rtl;
     margin: auto;
     width: 80%;
 }
@@ -315,7 +315,8 @@ off_products {
     padding-top: 2em;
     padding-bottom: 2em;
     display: flex;
-    direction: rtl;
+    text-align: right;
+    text-align: -webkit-right;
 }
 .favorite{
 
@@ -323,11 +324,7 @@ off_products {
 .fancy_favorite .col-lg-2 {
  float: right;
 }
-.img img {
-    width: 160px;
-    height: 150px;
-    
-}
+
 .favorite_pics{
     flex-direction: column;  
 }

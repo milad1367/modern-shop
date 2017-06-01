@@ -36,6 +36,7 @@
     margin: auto;
  }
 }
+
 @media only screen and (max-width:600px){
   .ch_special .images_select {
     display: none;
@@ -103,4 +104,9 @@
     padding: 1em;
   }
 
+}
+@media only screen and (max-width:1300px) {
+  .new_products {
+    direction: inherit;
+  }
 }
