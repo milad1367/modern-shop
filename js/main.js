@@ -6,7 +6,26 @@ $('.off_products').slick({
   speed: 300,
   slidesToShow: 6,
   slidesToScroll: 4,
+   arrows : false,
   responsive: [
+    {
+      breakpoint: 1300,
+        settings: {
+        slidesToShow: 5,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 1100,
+        settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
     {
       breakpoint: 1024,
       settings: {
