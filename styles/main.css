@@ -40,6 +40,9 @@ p {
 .fancy_new_cat ul li{
     padding-bottom: 1em;
 }
+.fancy_new_cat {
+    width:15%;
+}
 .fancy_new_cat p{
     padding-bottom: 1em;
 }
