@@ -38,10 +38,11 @@ p {
     padding-bottom: 1em;
 }
 .fancy_new_cat ul li{
-    padding-bottom: 1em;
+    padding-bottom: 1.1em;
 }
 .fancy_new_cat {
     width:15%;
+    direction: rtl;
 }
 .fancy_new_cat p{
     padding-bottom: 1em;
@@ -294,6 +295,7 @@ off_products {
 }
  .product section span img {
     margin: auto;
+    height: 176px;
 }
 
 .buy{

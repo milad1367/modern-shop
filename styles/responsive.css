@@ -45,9 +45,7 @@
     width: 100%;
   }
 
-  .width_80{
-    width: 98%;
-  }
+
 }
 @media only screen and (max-width:800px) {
   .start section {
@@ -97,8 +95,9 @@
 }
 }
 @media only screen and (max-width:1000px) {
-  .ch_special,.fancy_off section {
-    width:98%;
+  
+  .width_80,.width_85{
+    width: 98%;
   }
   .ch_special .content {
     padding: 1em;
