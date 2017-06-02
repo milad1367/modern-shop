@@ -279,6 +279,9 @@ a {
 .off_products {
    
 }
+.favorite_products {
+   
+}
 .product:not(:last-child) {
     margin-right: 5px;
 
@@ -301,12 +304,14 @@ a {
 .fancy_new_bg {
    background-color: Gainsboro ; 
 }
+.nutesnick{
+    margin-left: 2%;
+    width:20%;
+}
 .fancy_new_bg section {
 
 }
-.fancy_new {
-   
-}
+
 .favorite{
 
 }
