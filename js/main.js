@@ -16,17 +16,18 @@ $('.off_products').slick({
         infinite: true,
         dots: true
       }
-    }
-    /*
+    },
+    
     {
-      breakpoint: 1100,
+      breakpoint: 700,
         settings: {
-        slidesToShow: 4,
-        slidesToScroll: 3,
+        slidesToShow: 3,
+        slidesToScroll: 2,
         infinite: true,
         dots: true
       }
-    },
+    }
+    /*
     {
       breakpoint: 1024,
       settings: {

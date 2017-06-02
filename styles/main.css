@@ -286,16 +286,16 @@ off_products {
     margin-left: auto;
     margin-right: auto;
 }
-.product {
-    padding-right: 0.4em;
-    width:230px;
+.product:not(:last-child) {
+    margin-right: 5px;
+
 }
 .product section {
 
 }
- .product section span img {
+ .product span img {
     margin: auto;
-    height: 176px;
+  
 }
 
 .buy{
@@ -311,7 +311,6 @@ off_products {
 .fancy_new_bg section {
     display: flex;
     margin: auto;
-    width: 80%;
 }
 .fancy_new {
     padding-top: 2em;
