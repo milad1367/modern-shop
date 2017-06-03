@@ -120,10 +120,20 @@ $('.new_products').slick({
   */
   responsive: [
     {
-      breakpoint: 1000,
+      breakpoint: 1300,
         settings: {
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    
+    {
+      breakpoint: 700,
+        settings: {
+        slidesToShow: 3,
+        slidesToScroll: 2,
         infinite: true,
         dots: true
       }
