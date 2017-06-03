@@ -282,6 +282,10 @@ a {
 .favorite_products {
    
 }
+.favorite_products .slick-list {
+    margin-left:auto;
+    margin-right: auto;
+}
 .product:not(:last-child) {
     margin-right: 5px;
 
