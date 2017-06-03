@@ -338,11 +338,14 @@ a {
 .no_border_bottom{
   border-bottom: none;
 }
-.brands {
-    background-color: red;
+.brands,.brands img {
+  background-color: rgb(255, 82, 83);
 }
-.brands section {
 
+.brands .img-thumbnail {
+ padding: 0 ;
+ border: 0;
+ border-radius: 0;
 }
 
 .brands img {
@@ -364,3 +367,5 @@ a {
     .slick-next:before {
         color: black;
     }
+
+

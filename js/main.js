@@ -69,15 +69,17 @@ $('.favorite_products').slick({
   slidesToScroll: 4,
    arrows : false,
   responsive: [
+    /*
     {
       breakpoint: 1300,
         settings: {
         slidesToShow: 5,
-        slidesToScroll: 3,
+        slidesToScroll: 4,
         infinite: true,
         dots: true
       }
     },
+    */
     
     {
       breakpoint: 700,
