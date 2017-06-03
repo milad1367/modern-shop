@@ -274,17 +274,10 @@ a {
     right: 135px;
 }
 .new_products{
-    padding:3em 0 1em 0 ;
-    display: flex;
-    width: 100%;
-    direction: rtl;
+   
 }
-off_products {
-    padding:3em 0 1em 0 ;
-    display: flex;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+.off_products {
+   
 }
 .product:not(:last-child) {
     margin-right: 5px;
@@ -309,15 +302,10 @@ off_products {
    background-color: Gainsboro ; 
 }
 .fancy_new_bg section {
-    display: flex;
-    margin: auto;
+
 }
 .fancy_new {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    display: flex;
-    text-align: right;
-    text-align: -webkit-right;
+   
 }
 .favorite{
 

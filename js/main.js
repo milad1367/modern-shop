@@ -65,7 +65,7 @@ $('.new_products').slick({
   speed: 300,
   slidesToShow: 5,
   slidesToScroll: 4,
-   arrows : false
+   arrows : false,
    /*
   responsive: [
     {
@@ -118,6 +118,18 @@ $('.new_products').slick({
     // instead of a settings object
   ]
   */
+  responsive: [
+    {
+      breakpoint: 1000,
+        settings: {
+        slidesToShow: 4,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    }
+  ]
+  
 });
 
 
