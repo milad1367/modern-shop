@@ -21,6 +21,15 @@ $('.off_products').slick({
     {
       breakpoint: 700,
         settings: {
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+        {
+        breakpoint: 400,
+        settings: {
         slidesToShow: 3,
         slidesToScroll: 2,
         infinite: true,

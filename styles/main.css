@@ -296,6 +296,16 @@ a {
     margin: auto;
   
 }
+.product span p {
+    background-color: rgb(255, 82, 83);
+    position: fixed;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    border-radius: 0 10px 10px 10px;
+    color: white;
+    width: 30px;
+    
+}
 
 .buy{
     background-color: green ;
