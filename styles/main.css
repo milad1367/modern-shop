@@ -295,9 +295,7 @@ a {
       -webkit-transition: opacity 800ms;
         -moz-transition: opacity 800ms;
         -o-transition: opacity 800ms;
-        transition: opacity 800ms;
-
-       
+        transition: opacity 800ms;       
 }
  .product span img:hover {
     opacity: 0.8;
