@@ -366,6 +366,7 @@ a {
 .trust_mark {
 }
 .trust_mark img {
+    border: none;
 }
     .slick-prev:before,
     .slick-next:before {
