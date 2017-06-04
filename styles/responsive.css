@@ -40,6 +40,16 @@
     width: 90%;
     margin: auto;
  }
+ .col-xxs-12{
+   width:98%;
+   text-align: center;
+ }
+ .about li {
+   text-align: right;
+ }
+ .about_fancy {
+   text-align: right;
+ }
 }
 
 @media only screen and (max-width:600px){
