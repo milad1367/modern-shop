@@ -312,6 +312,17 @@ a {
     z-index: 1;  
 }
 
+.buy_for_off{
+    background-color: green ;
+    opacity: 0;
+    color: white;
+    -webkit-transition: opacity 500ms;
+        -moz-transition: opacity 500ms;
+        -o-transition: opacity 500ms;
+        transition: opacity 500ms;
+       position: absolute;
+       
+}
 .buy{
     background-color: green ;
     opacity: 0;
@@ -320,10 +331,14 @@ a {
         -moz-transition: opacity 500ms;
         -o-transition: opacity 500ms;
         transition: opacity 500ms;
-       position: fixed;
+
        
 }
 .product:hover  .buy {
+    opacity: 1;
+    
+}
+.product:hover  .buy_for_off {
     opacity: 1;
     
 }
