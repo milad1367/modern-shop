@@ -1,4 +1,7 @@
-@media only screen and (max-width:400px){
+
+
+
+@media only screen and (max-width:400px) {
      .col-xs-6 {
      padding-right:0;
      padding-left:0;
@@ -133,4 +136,15 @@
 
 @media only screen and (max-width:1300px) {
 
+}
+
+@media only screen and (max-height:450px){
+  .summary {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+  }
+  .summary p {
+    width: 80%;
+    padding: 1em 0 1em 0;
+}
 }
