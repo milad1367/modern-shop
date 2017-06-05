@@ -1,3 +1,8 @@
+@font-face {
+   font-family: byekan;
+   src: url(fonts/BYekan.woff);
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -5,7 +10,9 @@ html, body {
   font: inherit;
   overflow: auto;
   height: 100%;
+  font-family: byekan;
 }
+
 p,h1,h2,h3,h4 {
     padding:0;
     margin:0;
@@ -38,14 +45,18 @@ p,h1,h2,h3,h4 {
     padding-bottom: 1em;
 }
 .fancy_new_cat ul li{
-    padding-bottom: 1.1em;
+    padding-bottom: 0.5em;
 }
 .fancy_new_cat {
     width:15%;
     direction: rtl;
+    margin-top: 2em;
+}
+.hot {
+    color:rgb(255, 82, 83);
 }
 .fancy_new_cat p{
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 .li_circle {
     list-style-type: circle;
@@ -61,7 +72,7 @@ p,h1,h2,h3,h4 {
     background-color: white;
 }
 .BGC_ga {
-    background-color: Gainsboro ;
+    background-color: rgba(128, 128, 128, 0.12); ;
 }
 .width_100{
     width:100%;
@@ -124,6 +135,13 @@ h1 {
 }
 a {
      text-decoration: none;
+}
+.border {
+    border-bottom: 2px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/border.png) 30 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(../img/border.png) 30 stretch; /* Opera 11-12.1 */
+    border-image: url(../img/border.png) 30 stretch;
 }
 .start {
   background-image: url("../img/header-bg.png");
@@ -198,12 +216,16 @@ a {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 18%;
+    padding-top: 10em;
+    padding-bottom: 2em;
     color:white;
 }
 .summary p {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .search  button {
@@ -213,7 +235,6 @@ a {
 
 }
 .ch_special{
-   background-color: Gainsboro ;
    margin: auto;
 }
 .padding_top_2 {
@@ -347,7 +368,7 @@ a {
     
 }
 .fancy_new_bg {
-   background-color: Gainsboro ; 
+   background-color: rgba(128, 128, 128, 0.12);
 }
 .nutesnick{
     margin-left: 2%;

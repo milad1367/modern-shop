@@ -3,9 +3,15 @@
      padding-right:0;
      padding-left:0;
 }
+
 }
 @media only screen and (max-width:500px){
-
+  html,body{
+  font-size: 14px;
+}
+.fancy_off h1,.fancy_new_bg h1,.fancy_favorite h1 {
+  font-size: 30px;
+}
 .ch_special .select {
     -webkit-flex-direction: column-reverse;
     flex-direction: column-reverse;
@@ -19,11 +25,15 @@
   width: 70%;
 }
   .summary{
-    padding-top: 40%;
+    padding-top: 8em;
+  }
+  .summary h1 {
+    font-size: 22px;
   }
   .summary p {
-    padding: 0 1em;
-    font-size: larger;
+    width:80%;
+    padding: 2em 0 2em 0;
+    
   }
   .search{
     -webkit-flex-direction: column-reverse;

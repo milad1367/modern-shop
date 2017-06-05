@@ -36,6 +36,15 @@ $('.off_products').slick({
         infinite: true,
         dots: true
       }
+    },
+    {
+        breakpoint: 340,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
     }
   ]
   
@@ -76,6 +85,15 @@ $('.new_products').slick({
         infinite: true,
         dots: true
       }
+    },
+        {
+        breakpoint: 340,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
     }
   ]
   
@@ -111,6 +129,15 @@ $('.favorite_products').slick({
         breakpoint: 400,
         settings: {
         slidesToShow: 3,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+        {
+        breakpoint: 340,
+        settings: {
+        slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
         dots: true
