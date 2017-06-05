@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+
 $('.off_products').slick({
   dots: true,
   infinite: false,
@@ -132,6 +133,14 @@ $(document).click(function() {
 $('.nav_open').click(function(){
    document.getElementById("nav").style.width = "150px";
 })
+
+$('[data-countdown]').each(function() {
+  var $this = $(this), finalDate = $(this).data('countdown');
+  $this.countdown(finalDate, function(event) {
+    $this.html(event.strftime('%D days %H:%M:%S'));
+    
+  });
+});
 
 function closeNav() {
     document.getElementById("nav").style.width = "0";
