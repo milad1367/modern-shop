@@ -17,6 +17,11 @@ p,h1,h2,h3,h4 {
     padding:0;
     margin:0;
 }
+button {
+    color:white;
+    font-family: byekan;
+    background-color: rgb(255, 82, 83);
+}
 .font_48{
     font-size: 48px;
 }
@@ -73,6 +78,9 @@ p,h1,h2,h3,h4 {
 }
 .BGC_ga {
     background-color: rgba(128, 128, 128, 0.12); ;
+}
+.‌‌BGC_ga .ch_special button {
+    margin-top: 2em;
 }
 .width_100{
     width:100%;
@@ -208,7 +216,6 @@ a {
     background-color: white;
 }
 .input-group-btn button {
-    background-color: red;
     width:70px;
 }
 .summary {
