@@ -308,6 +308,15 @@ a {
 .off_products {
    
 }
+.off_secounds svg {
+   -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+.off_secounds .circle_animation {
+  stroke-dasharray: 63; /* this value is the pixel circumference of the circle */
+  stroke-dashoffset: 63;
+  transition: all 1s linear;
+}
 .favorite_products {
    
 }

@@ -160,14 +160,29 @@ $(document).click(function() {
 $('.nav_open').click(function(){
    document.getElementById("nav").style.width = "150px";
 })
-
+var days,hours,minutes,secounds = {'defult':0,'counter':0,'initialOffset':''} ;
+secounds = {'defult':60,'counter':0,'initialOffset':'64'}; 
 $('[data-countdown]').each(function() {
   var $this = $(this), finalDate = $(this).data('countdown');
   $this.countdown(finalDate, function(event) {
     $this.html(event.strftime('%D days %H:%M:%S'));
-    
+    secounds.counter = event.offset.seconds;
   });
 });
+
+ $('.circle_animation').css('stroke-dashoffset', secounds.initialOffset-(1*(secounds.initialOffset/secounds.defult)));
+  var interval = setInterval(function() {
+		$('h2').text(secounds.counter);
+		if ( secounds.counter == secounds.defult) {  	
+    //  clearInterval(interval);
+    secounds.counter = 0 ;
+    //  console.log("yeee");
+			return;
+    }
+    $('.circle_animation').css('stroke-dashoffset', secounds.initialOffset-((secounds.counter+1)*(secounds.initialOffset/secounds.defult)));
+    secounds.counter++;  
+}, 1000);
+
 
 function closeNav() {
     document.getElementById("nav").style.width = "0";
