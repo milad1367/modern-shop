@@ -18,9 +18,8 @@ $('.off_products').slick({
         dots: true
       }
     },
-    
-    {
-      breakpoint: 700,
+        {
+      breakpoint: 1000,
         settings: {
         slidesToShow: 4,
         slidesToScroll: 2,
@@ -28,10 +27,29 @@ $('.off_products').slick({
         dots: true
       }
     },
-        {
-        breakpoint: 400,
+    
+    {
+      breakpoint: 700,
         settings: {
         slidesToShow: 3,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+        {
+      breakpoint: 540,
+        settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+        {
+        breakpoint: 470,
+        settings: {
+        slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
         dots: true
@@ -40,8 +58,8 @@ $('.off_products').slick({
     {
         breakpoint: 340,
         settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToShow: 1,
+        slidesToScroll: 1,
         infinite: true,
         dots: true
       }
@@ -161,7 +179,7 @@ $('.nav_open').click(function(){
    document.getElementById("nav").style.width = "150px";
 })
 var days,hours,minutes,secounds = {'defult':0,'counter':0,'initialOffset':''} ;
-secounds = {'defult':60,'counter':0,'initialOffset':'64'}; 
+secounds = {'defult':60,'counter':0,'initialOffset':'115'}; 
 $('[data-countdown]').each(function() {
   var $this = $(this), finalDate = $(this).data('countdown');
   $this.countdown(finalDate, function(event) {
@@ -172,7 +190,7 @@ $('[data-countdown]').each(function() {
 
  $('.circle_animation').css('stroke-dashoffset', secounds.initialOffset-(1*(secounds.initialOffset/secounds.defult)));
   var interval = setInterval(function() {
-		$('h2').text(secounds.counter);
+		$('.secound').text(secounds.counter);
 		if ( secounds.counter == secounds.defult) {  	
     //  clearInterval(interval);
     secounds.counter = 0 ;
