@@ -179,25 +179,27 @@ $('.nav_open').click(function(){
    document.getElementById("nav").style.width = "150px";
 })
 var days,hours,minutes,secounds = {'defult':0,'counter':0,'initialOffset':''} ;
-secounds = {'defult':60,'counter':0,'initialOffset':'115'}; 
+secounds = {'defult':60,'counter':0,'initialOffset':'83'};
+minutes =  {'defult':60,'counter':0,'initialOffset':'83'};
 $('[data-countdown]').each(function() {
   var $this = $(this), finalDate = $(this).data('countdown');
   $this.countdown(finalDate, function(event) {
     $this.html(event.strftime('%D days %H:%M:%S'));
     secounds.counter = event.offset.seconds;
+    minutes.counter = event.offset.minutes;
   });
 });
 
- $('.circle_animation').css('stroke-dashoffset', secounds.initialOffset-(1*(secounds.initialOffset/secounds.defult)));
+ $('.secounds .circle_animation').css('stroke-dashoffset', secounds.initialOffset-(1*(secounds.initialOffset/secounds.defult)));
   var interval = setInterval(function() {
-		$('.secound').text(secounds.counter);
+		$('.secounds_str').text(secounds.counter);
 		if ( secounds.counter == secounds.defult) {  	
     //  clearInterval(interval);
     secounds.counter = 0 ;
     //  console.log("yeee");
 			return;
     }
-    $('.circle_animation').css('stroke-dashoffset', secounds.initialOffset-((secounds.counter+1)*(secounds.initialOffset/secounds.defult)));
+    $('.secounds .circle_animation').css('stroke-dashoffset', secounds.initialOffset-((secounds.counter+1)*(secounds.initialOffset/secounds.defult)));
     secounds.counter++;  
 }, 1000);
 
