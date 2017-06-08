@@ -181,12 +181,16 @@ $('.nav_open').click(function(){
 var days,hours,minutes,secounds = {'defult':0,'counter':0,'initialOffset':''} ;
 secounds = {'defult':60,'counter':0,'initialOffset':'83'};
 minutes =  {'defult':60,'counter':0,'initialOffset':'83'};
+hours =  {'defult':24,'counter':0,'initialOffset':'83'};
+days =  {'defult':24,'counter':0,'initialOffset':'83'};
 $('[data-countdown]').each(function() {
   var $this = $(this), finalDate = $(this).data('countdown');
   $this.countdown(finalDate, function(event) {
     $this.html(event.strftime('%D days %H:%M:%S'));
     secounds.counter = event.offset.seconds;
     minutes.counter = event.offset.minutes;
+    hours.counter = event.offset.hours;
+    days.counter = event.offset.days;
   });
 });
 
@@ -219,6 +223,33 @@ $('[data-countdown]').each(function() {
     minutes.counter++;  
 }, 1000);
 
+
+$('.hours .circle_animation').css('stroke-dashoffset', hours.initialOffset-(1*(hours.initialOffset/hours.defult)));
+  var interval = setInterval(function() {
+		$('.hours_str').text(hours.counter);
+		if ( hours.counter == hours.defult) {  	
+    //  clearInterval(interval);
+    hours.counter = 0 ;
+    //  console.log("yeee");
+			return;
+    }
+    $('.hours .circle_animation').css('stroke-dashoffset', hours.initialOffset-((hours.counter+1)*(hours.initialOffset/hours.defult)));
+    hours.counter++;  
+}, 1000);
+
+
+$('.days .circle_animation').css('stroke-dashoffset', days.initialOffset-(1*(days.initialOffset/days.defult)));
+  var interval = setInterval(function() {
+		$('.days_str').text(days.counter);
+		if ( days.counter == days.defult) {  	
+    //  clearInterval(interval);
+    days.counter = 0 ;
+    //  console.log("yeee");
+			return;
+    }
+    $('.days .circle_animation').css('stroke-dashoffset', days.initialOffset-((days.counter+1)*(days.initialOffset/days.defult)));
+    days.counter++;  
+}, 1000);
 
 function closeNav() {
     document.getElementById("nav").style.width = "0";
