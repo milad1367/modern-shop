@@ -190,6 +190,8 @@ $('[data-countdown]').each(function() {
   });
 });
 
+
+
  $('.secounds .circle_animation').css('stroke-dashoffset', secounds.initialOffset-(1*(secounds.initialOffset/secounds.defult)));
   var interval = setInterval(function() {
 		$('.secounds_str').text(secounds.counter);
@@ -201,6 +203,20 @@ $('[data-countdown]').each(function() {
     }
     $('.secounds .circle_animation').css('stroke-dashoffset', secounds.initialOffset-((secounds.counter+1)*(secounds.initialOffset/secounds.defult)));
     secounds.counter++;  
+}, 1000);
+
+
+ $('.minutes .circle_animation').css('stroke-dashoffset', minutes.initialOffset-(1*(minutes.initialOffset/minutes.defult)));
+  var interval = setInterval(function() {
+		$('.minutes_str').text(minutes.counter);
+		if ( minutes.counter == minutes.defult) {  	
+    //  clearInterval(interval);
+    minutes.counter = 0 ;
+    //  console.log("yeee");
+			return;
+    }
+    $('.minutes .circle_animation').css('stroke-dashoffset', minutes.initialOffset-((minutes.counter+1)*(minutes.initialOffset/minutes.defult)));
+    minutes.counter++;  
 }, 1000);
 
 
