@@ -329,8 +329,8 @@ a {
   transition: all 1s linear;
 }
 .off_counter .minutes .circle_animation {
-  stroke-dasharray: 83; /* this value is the pixel circumference of the circle */
-  stroke-dashoffset: 83;
+  stroke-dasharray: 80; /* this value is the pixel circumference of the circle */
+  stroke-dashoffset: 80;
   transition: all 1s linear;
 }
 .off_counter .hours .circle_animation {
