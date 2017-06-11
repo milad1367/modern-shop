@@ -165,6 +165,7 @@ a {
 .user {
     padding-top:0.8em;
     width:100%;
+    margin-bottom: 10px;
 }
 .user a {
     color:white;
@@ -195,6 +196,9 @@ a {
 .shop {
     width:15%
 }
+.shop img:first-child {
+    margin-right:10%
+}
  a:hover {
     color:green;
 
@@ -207,13 +211,11 @@ a {
     text-align: right;
 }
 .brand img {
-    width:70px;
-    height: 20px;
+position: relative;
+bottom: 30px;
 }
 
-.search {
 
-}
 .input-group {
     padding:0.2em;
     background-color: white;
