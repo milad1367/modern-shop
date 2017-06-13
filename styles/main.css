@@ -481,5 +481,12 @@ float: right;
     margin-right: auto;
 }
 
+.about {
+  padding:2em 0 2em 0;
 
+}
+.about h2 {
+    padding:0 0 1em 0;
+    text-align: right;
+}
 

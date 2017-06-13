@@ -41,7 +41,25 @@
 }
 .login_form {
    background-color: white;
+   padding: 0;
+   color: white;
+   direction: rtl;
 }
+.login_form form {
+    padding-top: 3em;
+}
+.login_form input {
+    background-color: rgb(168, 231, 148) ;
+    border-color:  rgb(168, 231, 148) ;
+
+}
+
+
 .green{
  background-color: rgb(105, 195, 90);
+ padding-right: 1em;
+ padding-top:2em;
+}
+.about {
+    background-color: rgba(128, 128, 128, 0.12);
 }
