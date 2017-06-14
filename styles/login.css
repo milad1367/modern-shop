@@ -1,6 +1,40 @@
 .start{
-background:none;
-background-color: black;
-height: initial;
+  background:none;
+  background-color: black;
+  height: initial;
 
+}
+.start section {
+    width:100%;
+}
+.red_box {
+  background-color: rgb(255, 82, 83);
+  text-align: center;
+  color:white;
+  
+}
+.red_box .container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+.red_box .container span {
+    border-bottom: 1px solid;
+    padding: 0.5em;
+}
+.red_box .container p {
+    padding-top: 1em;
+}
+.login{
+    padding: 1em 0 1em 0 ;
+}
+.login_bg{
+    position: relative;
+}
+.login_bg .comment {
+    position: absolute;
+    color: white;
+    top:100px;
+    right:100px;
+    direction: rtl;
 }

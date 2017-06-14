@@ -213,6 +213,7 @@ a {
 .brand img {
 position: relative;
 bottom: 30px;
+float: right;
 }
 
 .input-group {
