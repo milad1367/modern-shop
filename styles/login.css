@@ -26,7 +26,8 @@
     padding-top: 1em;
 }
 .login{
-    padding: 1em 0 1em 0 ;
+    padding: 2em 0 2em 0 ;
+    background-color:rgba(128, 128, 128, 0.12);
 }
 .login_bg{
     position: relative;
@@ -37,4 +38,10 @@
     top:100px;
     right:100px;
     direction: rtl;
+}
+.login_form {
+   background-color: white;
+}
+.green{
+ background-color: rgb(105, 195, 90);
 }
