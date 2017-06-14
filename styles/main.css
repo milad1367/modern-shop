@@ -465,6 +465,7 @@ float: right;
 .useful_links section {
 }
 .trust_mark {
+    text-align: right;
 }
 .trust_mark img {
     border: none;

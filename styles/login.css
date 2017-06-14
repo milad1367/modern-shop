@@ -32,6 +32,13 @@
 .login_bg{
     position: relative;
 }
+.input_width{
+    color: black;
+    text-align: center;
+    font-size: 14px;
+        background-color: rgb(168, 231, 148) ;
+    border-color:  rgb(168, 231, 148) ;
+}
 .login_bg .comment {
     position: absolute;
     color: white;
@@ -43,6 +50,7 @@
 .login_bg .comment p {
     font-size: 13px;
 }
+
 .login_form {
    
    color: white;
@@ -50,10 +58,19 @@
 }
 .login_form form {
     padding: 1.5em 0 1.5em 0;
+    text-align: center;
 }
+
 .login_form input {
-    background-color: rgb(168, 231, 148) ;
-    border-color:  rgb(168, 231, 148) ;
+
+}
+.submit {
+    border-radius: 3px;
+     background-color: rgb(118, 188, 54);
+      box-shadow: 0px 5px 11px 0px rgba(118, 188, 54, 0.2);
+      margin:1.3em auto;
+       display:block;
+        width:40%;
 
 }
 
@@ -75,12 +92,19 @@
 .about {
     background-color: rgba(128, 128, 128, 0.12);
 }
+.email {
+    background: url(../img/ic_email_white_18px.svg) no-repeat scroll 98% 5px;
+}
+.password{
+    background: url(../img/ic_lock_white_18px.svg) no-repeat scroll 98% 5px;
+}
 @media only screen and (max-width:992px) {
   .green {
       text-align: center;
   }
 .input_width {
     width:70%;
+     
 }
 }
 @media only screen and (max-width:769px) {
